@@ -239,13 +239,13 @@
 						}
 
 					// Prevent vertical scrolling past the top or bottom.
-						if (($this.scrollTop() < 0 && diffY < 0)
-						|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
+						// if (($this.scrollTop() < 0 && diffY < 0)
+						// || (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
 
-							event.preventDefault();
-							event.stopPropagation();
+						// 	event.preventDefault();
+						// 	event.stopPropagation();
 
-						}
+						// }
 
 				});
 
